@@ -127,7 +127,7 @@ namespace SecretSatan
 
                 try
                 {
-                    //smtp.Send(message);
+                    smtp.Send(message);
                     Console.WriteLine($"Sent to {message.To.First().Address} {_happySmiles[_rnd.Next(_happySmiles.Length)]}");
                 }
                 catch
